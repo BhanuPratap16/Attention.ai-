@@ -1,0 +1,5 @@
+streamlit==1.17.0
+together==0.0.1  # or any other appropriate version based on the package you're using
+streamlit-authenticator==0.1.2
+PyYAML==6.0
+pathlib==1.0.1  # if you are using an older version of Python (Python 3.4 or lower)
