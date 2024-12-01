@@ -6,7 +6,11 @@
 Clone the repository
 
 ```bash
-https://github.com/BhanuPratap16/Llama-2-Project.git
+https://github.com/BhanuPratap16/Attention.ai-.git
+```
+Change the directory to Attention.ai- 
+```bash
+cd Attention.ai-
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
@@ -40,5 +44,5 @@ streamlit run test.py
 now, open up your local host and port
 ### Step 05- Enter your login credentials and Enter 
 
-Draft your itinerary with our AI Chatbot 
+Draft your itinerary with our AI Chatbot . Thanks!!
 
