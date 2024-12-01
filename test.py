@@ -23,7 +23,7 @@ authenticator = stauth.Authenticate(
 )
 # with file_path.open("wb") as file:
 #     pickle.dump(hashed_passwords, file)
-st.title("Tourism Itinerary Chatbot Authentication")
+# st.title("Tourism Itinerary Chatbot Authentication")
 authenticator.login(key="login",location="main")
 
 if st.session_state['authentication_status']:
@@ -61,9 +61,9 @@ Meal Preferences: Ask if they would like to have meals during their trip and inq
 
 Traveling Alone or with a Group: Once the customer provides their destination, ask if they are traveling alone or with a group. If they are traveling with a group, inquire about the group’s interests and preferences to tailor the itinerary accordingly.
 
-Provide Recommendations: Based on their responses, draft a personalized itinerary that includes suggestions for destinations, activities, and meals, all aligned with their budget, interests, and travel duration. Be polite, clear, and concise in your responses.
+Provide Recommendations: Based on their responses, draft a personalized itinerary that includes suggestions for destinations, activities, meals and  distance between one location to another location to travel, all aligned with their budget, interests, and travel duration. Be polite, clear, and concise in your responses.
 
-Full Overview of Locations: Once the itinerary is ready, provide a full overview of the travel locations. Show the estimated travel times between destinations and the time the customer will likely stay at each location. Use arrows to connect locations for easier understanding.
+Full Overview of Locations: Once the itinerary is ready, provide a full overview of the travel locations. Show the estimated travel times and distances between destinations and the time the customer will likely stay at each location. Use arrows to connect locations for easier understanding.
 
 Politeness and Clarity: Always respond politely and comprehensively. Provide information in a way that feels helpful and customer-friendly, focusing on their needs.
 
