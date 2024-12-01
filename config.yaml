@@ -1,0 +1,17 @@
+credentials:
+  usernames:
+    ironman:
+      email: tony.stark@starkindustries.com
+      name: Tony Stark
+      password: $2b$12$3SykYym38FQU2nlRpAxQ9.1PFNjhGqOfMHrFHEvjZYf0cBDoKQ18O
+      together_api_key: your_api_key
+    shaktiman:
+      email: mukesh.khanna@example.com
+      name: Mukesh Khanna
+      password: $2b$12$dcsUmeu8AIunWs5eoKzvsOMLmFJayrd78oK2EUxV0UkfZlW8aG/c2
+      together_api_key: your_api_key
+
+cookie:
+  name: chatbotOne
+  key: abcd
+  expiry_days: 15
