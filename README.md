@@ -1,4 +1,4 @@
-# Attention.ai-
+# Itinerary Chatbot
 
 # How to run?
 ### STEPS:
@@ -6,11 +6,11 @@
 Clone the repository
 
 ```bash
-https://github.com/BhanuPratap16/Attention.ai-.git
+https://github.com/BhanuPratap16/Itinerary-Chatbot.git
 ```
 Change the directory to Attention.ai- 
 ```bash
-cd Attention.ai-
+cd Itinerary-Chatbot
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 then, Go to the config.yaml file and replace the together_api_key with your api key in both spaces.
 
-Now, Access to your username and password from pass.txt 
+Now, Use one of the username and password from pass.txt 
 
 ### Step 04- Run test.py file 
 
@@ -44,5 +44,5 @@ streamlit run test.py
 now, open up your local host and port
 ### Step 05- Enter your login credentials and Enter 
 
-Draft your itinerary with our AI Chatbot . Thanks!!
+Draft your Itinerary with Chatbot . Thanks!!
 
